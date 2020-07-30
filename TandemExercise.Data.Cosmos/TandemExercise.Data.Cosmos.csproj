@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TandemExercise.Business.Entities\TandemExercise.Business.Entities.csproj" />
+    <ProjectReference Include="..\TandemExercise.Data\TandemExercise.Data.csproj" />
+  </ItemGroup>
+
+</Project>
